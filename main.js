@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", function() {
     if (newNav) newNav.classList.add("active");
   }
 
-  // Клик по слайду
   slides.forEach((slide, i) => {
     slide.onclick = () => {
       activeSlideIndex = i;
@@ -29,7 +28,6 @@ document.addEventListener("DOMContentLoaded", function() {
     };
   });
 
-  // Клик по индикатору
   indicators.forEach((nav, i) => {
     nav.onclick = () => {
       activeSlideIndex = i;
